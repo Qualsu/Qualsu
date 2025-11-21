@@ -29,7 +29,7 @@ export default function Navbar() {
                     </div>
                 </div>
 
-                <div className={`md:hidden absolute top-full left-0 right-0 bg-black/90 backdrop-blur-lg transition-all duration-300 ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+                <div className={`md:hidden absolute top-full left-0 right-0 bg-black/40 backdrop-blur-lg transition-all duration-300 ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
                     <div className="container mx-auto px-4 py-6 flex flex-col gap-1">
                         <a 
                             href="#about" 
