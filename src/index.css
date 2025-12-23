@@ -11,10 +11,11 @@
 
 
 * {
-    font-family: 'MultiroundPro', sans-serif;
+  font-family: 'MultiroundPro', sans-serif;
 }
 
 body {
-    background: #191118;
-    background: linear-gradient(90deg,rgb(25, 17, 24) 0%, rgba(34, 22, 33, 1) 100%);
+  background: #191118;
+  overflow-x: hidden;
+  background: linear-gradient(90deg,rgb(25, 17, 24) 0%, rgba(34, 22, 33, 1) 100%);
 }
