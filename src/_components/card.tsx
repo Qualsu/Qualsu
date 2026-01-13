@@ -30,7 +30,7 @@ export function ProjectCard({ title, description, image, link, logo, titleClass,
 
                 <div className="mt-auto pt-3 sm:pt-4">
                     <a href={link}>
-                        <button className="w-full border-2 hover:border-white/80 hover:text-white/80 transition-all duration-200 hover:underline rounded-lg py-2 px-4 text-base sm:text-lg">
+                        <button className="w-full border-2 hover:border-white/80 hover:text-white/80 transition-all duration-200 rounded-lg py-2 px-4 text-base sm:text-lg">
                             Перейти
                         </button>
                     </a>

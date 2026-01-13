@@ -14,7 +14,7 @@ export default function Project() {
                         title="Notter"
                         description="Планируйте и разрабатывайте с командой в удобной для вас атмосфере"
                         image="/preview/notter.png"
-                        link="https://notter.tech"
+                        link="https://notter.su"
                         logo="/logo/notter.png"
                     />
                     <ProjectCard
