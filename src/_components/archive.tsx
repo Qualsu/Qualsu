@@ -21,7 +21,7 @@ export default function Archive() {
                         title="Notter Code"
                         description="браузерный редактор кода"
                         image="/preview/code.png"
-                        link="https://code.notter.tech"
+                        link="https://code.notter.su"
                         logo="/logo/code.png"
                     />
                     <ProjectCard
