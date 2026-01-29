@@ -25,6 +25,13 @@ export default function Project() {
                         logo="/logo/insdl.png"
                         logoClass="w-32 sm:w-48 sm:-ml-3 ml-0"
                     />
+                    <ProjectCard
+                        title="Shrtl://"
+                        description="Сокращай и еще раз сокращай"
+                        image="/preview/shrtl.png"
+                        link="https://shrtl.ru"
+                        logo="/logo/shrtl.svg"
+                    />
                 </div>
             </div>
         </main>

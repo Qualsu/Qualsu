@@ -11,27 +11,19 @@ export default function Develop() {
             <div className="w-full lg:w-2/3">
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 auto-rows-fr">
                     <ProjectCard
-                        title="Shrtl://"
-                        description="Сокращай и еще раз сокращай"
-                        image="/preview/shrtl.png"
-                        link="https://shrtl.ru"
-                        logo="/logo/shrtl.svg"
-                    />
-
-                    <ProjectCard
                         title="Notter ToDo"
                         description="Превращайте хаос в четкие шаги. Работайте так, как вам удобно"
                         image="/preview/todo.png"
-                        link="https://todo.notter.su"
+                        link="/"
                         logo="/logo/todo.png"
                     />
-                    {/* <ProjectCard
+                    <ProjectCard
                         title="Unsion"
                         description="Слушайте любимую музыку без ограничений в любое время"
                         image="/preview/unison.png"
                         link="/"
                         logo="/logo/unison.png"
-                    /> */}
+                    />
                 </div>
             </div>
         </main>
