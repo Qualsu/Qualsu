@@ -23,7 +23,6 @@ export default function Project() {
                         image="/preview/insdl.png"
                         link="https://github.com/qualsu/insdl"
                         logo="/logo/insdl.png"
-                        logoClass="w-32 sm:w-48 sm:-ml-3 ml-0"
                     />
                     <ProjectCard
                         title="Shrtl://"

@@ -18,7 +18,7 @@ export default function Develop() {
                         logo="/logo/todo.png"
                     />
                     <ProjectCard
-                        title="Unsion"
+                        title="Unison"
                         description="Слушайте любимую музыку без ограничений в любое время"
                         image="/preview/unison.png"
                         link="/"
