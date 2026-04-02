@@ -1,36 +1,27 @@
-type ProjectCardProps = {
-    title: string;
-    titleClass?: string
-    description: string;
-    image: string;
-    logo: string;
-    link: string;
-    logoClass?: string;
-    develop?: boolean;
-    freaze?: boolean;
-};
+import type { ProjectCardProps } from "../config/types/components.types";
 
 export function ProjectCard({ title, description, image, link, logo, titleClass, logoClass = "w-16 sm:w-18", freaze = false }: ProjectCardProps) {
     return (
-        <div className="relative rounded-xl sm:rounded-2xl overflow-hidden bg-black/40 backdrop-blur-lg shadow-xl flex flex-col justify-between hover:scale-105 transition-all duration-300 min-h-72 sm:min-h-80">
+        <div className="group surface-panel relative flex min-h-72 flex-col justify-between overflow-hidden rounded-[1.5rem] transition-all duration-300 hover:-translate-y-1.5 hover:border-white/20 hover:shadow-[0_24px_70px_rgba(0,0,0,0.35)] sm:min-h-80">
             <div
-                className="absolute inset-0 bg-cover bg-center opacity-40"
+                className="absolute inset-0 bg-cover bg-center opacity-35 transition-transform duration-500 group-hover:scale-105"
                 style={{ backgroundImage: `url(${image})` }}
             ></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/45 to-black/80"></div>
 
-            <div className="relative p-4 sm:p-5 flex flex-col gap-3 h-full">
+            <div className="relative flex h-full flex-col gap-4 p-5 sm:p-6">
                 <div className="flex flex-col gap-3">
-                    <img src={logo} alt="Logo" className={`${logoClass} h-12 sm:h-16 object-contain`}/>
-                    <h2 className={`text-xl sm:text-2xl font-bold ${titleClass}`}>
+                    <img src={logo} alt="Logo" className={`${logoClass} h-12 object-contain sm:h-16`}/>
+                    <h2 className={`text-xl font-bold tracking-tight sm:text-2xl ${titleClass}`}>
                         {freaze && <span className="mr-1 text-cyan-300 hover:cursor-default" title="Проект заморожен">❄</span>}
                         {title}
                     </h2>
-                    <p className="text-sm opacity-95 line-clamp-3">{description}</p>
+                    <p className="line-clamp-3 text-sm text-white/80 sm:text-[0.95rem]">{description}</p>
                 </div>
 
                 <div className="mt-auto pt-3 sm:pt-4">
                     <a href={link}>
-                        <button className="w-full border-2 hover:border-white/80 hover:text-white/80 transition-all duration-200 rounded-lg py-2 px-4 text-base sm:text-lg">
+                        <button className="primary-button w-full border-white/15 bg-white/[0.04] px-4 py-2.5 text-base sm:text-lg">
                             Перейти
                         </button>
                     </a>

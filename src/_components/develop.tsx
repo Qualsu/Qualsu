@@ -1,29 +1,21 @@
 import { ProjectCard } from "./card";
+import { projects } from "../config/routing/projects.route";
+import { pages } from "../config/routing/pages.rourte";
 
 export default function Develop() {
     return (
-        <main className="text-white bg-black/20 p-4 sm:p-5 mx-4 sm:mx-6 md:mx-8 lg:mx-10 my-6 sm:my-8 md:my-10 rounded-xl sm:rounded-2xl flex flex-col lg:flex-row items-start gap-6 sm:gap-8">
-            <div className="flex flex-col items-start gap-3 sm:gap-4 w-full lg:w-1/3" id="development">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl">В разработке</h1>
-                <h2 className="text-xl sm:text-2xl">Может, когда-то и выйдут</h2>
+        <main className="section-shell flex flex-col items-start gap-8 lg:flex-row">
+            <div className="flex flex-col items-start gap-3 sm:gap-4 w-full lg:w-1/3" id={pages.IDS.DEVELOPMENT}>
+                <span className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-sm uppercase tracking-[0.2em] text-white/45">In develop</span>
+                <h1 className="section-heading">В разработке</h1>
+                <h2 className="section-copy">Может, когда-то и выйдут</h2>
             </div>
 
             <div className="w-full lg:w-2/3">
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 auto-rows-fr">
-                    <ProjectCard
-                        title="Notter ToDo"
-                        description="Превращайте хаос в четкие шаги. Работайте так, как вам удобно"
-                        image="/preview/todo.png"
-                        link="/"
-                        logo="/logo/todo.png"
-                    />
-                    <ProjectCard
-                        title="Unison"
-                        description="Слушайте любимую музыку без ограничений в любое время"
-                        image="/preview/unison.png"
-                        link="/"
-                        logo="/logo/unison.png"
-                    />
+                <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
+                    {projects.DEVELOP.map((project) => (
+                        <ProjectCard key={project.title} {...project} />
+                    ))}
                 </div>
             </div>
         </main>
