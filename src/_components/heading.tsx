@@ -17,10 +17,6 @@ export default function Heading() {
                 Кодим так, что Интернет плачет
             </h1>
 
-            <p className="relative mx-auto mt-4 max-w-2xl text-center text-sm text-white/65 sm:text-base md:text-lg">
-                Делаем свои проекты, сервисы и странные штуки в интернете. Без лишнего пафоса, но с характером.
-            </p>
-
             <div className="relative mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <a 
                     href={links.GITHUB_QUALSU}
