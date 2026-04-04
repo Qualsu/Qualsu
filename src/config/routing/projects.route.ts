@@ -24,6 +24,13 @@ export const projects = {
             image: images.PREVIEW.SHRTL,
             link: links.SHRTL,
             logo: images.LOGO.SHRTL
+        },
+        {
+            title: "Omi",
+            description: "Интерпретируемый язык программирования на Python",
+            image: images.PREVIEW.OMI,
+            link: links.OMI,
+            logo: images.LOGO.OMI
         }
     ],
     DEVELOP: [
