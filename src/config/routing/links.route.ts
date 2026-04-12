@@ -11,5 +11,6 @@ export const links = {
     KENYCLOUD: "https://github.com/qualsu/kenycloud",
     CODE_NOTTER: "https://code.notter.su",
     VOICY_DISCORD: "https://discord.com/invite/4ed6dbJZvZ",
-    OMI: "https://omilang.fun"
+    OMI: "https://omilang.fun",
+    QUALCLOUD: "https://cloud.qual.su"
 }
