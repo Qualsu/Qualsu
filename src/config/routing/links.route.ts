@@ -10,5 +10,7 @@ export const links = {
     TELEGRAM_QUALSU: "https://t.me/qualsu",
     KENYCLOUD: "https://github.com/qualsu/kenycloud",
     CODE_NOTTER: "https://code.notter.su",
-    VOICY_DISCORD: "https://discord.com/invite/4ed6dbJZvZ"
+    VOICY_DISCORD: "https://discord.com/invite/4ed6dbJZvZ",
+    OMI: "https://omilang.fun",
+    QUALCLOUD: "https://cloud.qual.su"
 }

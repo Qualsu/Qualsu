@@ -24,6 +24,20 @@ export const projects = {
             image: images.PREVIEW.SHRTL,
             link: links.SHRTL,
             logo: images.LOGO.SHRTL
+        },
+        {
+            title: "Qual Cloud",
+            description: "Форк KenyCloud для работы с файлами проектов Qualsu в одном месте",
+            image: images.PREVIEW.QUALCLOUD,
+            link: links.QUALCLOUD,
+            logo: images.LOGO.QUALCLOUD
+        },
+        {
+            title: "Omi",
+            description: "Интерпретируемый язык программирования на Python",
+            image: images.PREVIEW.OMI,
+            link: links.OMI,
+            logo: images.LOGO.OMI
         }
     ],
     DEVELOP: [
@@ -41,13 +55,6 @@ export const projects = {
             link: pages.ROOT,
             logo: images.LOGO.UNISON
         },
-        {
-            title: "Qual Cloud",
-            description: "Форк KenyCloud для работы с файлами всех проектов Qualsu в одном месте",
-            image: images.PREVIEW.QUALCLOUD,
-            link: pages.ROOT,
-            logo: images.LOGO.QUALCLOUD
-        }
     ],
     ARCHIVE: [
         {
