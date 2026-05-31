@@ -11,11 +11,23 @@ export default function Project() {
                 <h2 className="section-copy">IT будущего? это не про нас</h2>
             </div>
 
-            <div className="w-full lg:w-2/3">
-                <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
-                    {projects.MAIN.map((project) => (
-                        <ProjectCard key={project.title} {...project} />
-                    ))}
+            <div className="flex w-full flex-col gap-8 lg:w-2/3">
+                <div className="flex flex-col gap-4">
+                    <h2 className="text-xl font-semibold tracking-tight text-white/75 sm:text-2xl">Приложения</h2>
+                    <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
+                        {projects.MAIN.map((project) => (
+                            <ProjectCard key={project.title} {...project} />
+                        ))}
+                    </div>
+                </div>
+
+                <div className="flex flex-col gap-4">
+                    <h2 className="text-xl font-semibold tracking-tight text-white/75 sm:text-2xl">Инструменты разработки</h2>
+                    <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
+                        {projects.TOOLS.map((project) => (
+                            <ProjectCard key={project.title} {...project} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </main>

@@ -5,6 +5,7 @@ export const links = {
     STATUS: "https://status.qual.su",
     NOTTER: "https://notter.su",
     INSDL: "https://github.com/qualsu/insdl",
+    INAPI: "https://github.com/qualsu/inapi",
     SHRTL: "https://shrtl.ru",
     GITHUB_QUALSU: "https://github.com/qualsu",
     TELEGRAM_QUALSU: "https://t.me/qualsu",
