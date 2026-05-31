@@ -1,4 +1,4 @@
-<img src="public/logo/full-logo.png" width="400px"/>
+<img src="public/logo.png" width="400px"/>
 
 # Qualsu
 
