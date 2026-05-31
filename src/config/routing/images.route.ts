@@ -7,6 +7,7 @@ export const images = {
     PREVIEW: {
         NOTTER: "/preview/notter.png",
         INSDL: "/preview/insdl.png",
+        INAPI: "/preview/inapi.png",
         SHRTL: "/preview/shrtl.png",
         TODO: "/preview/todo.png",
         UNISON: "/preview/unison.png",
@@ -18,11 +19,12 @@ export const images = {
     },
     LOGO: {
         CODE: "/logo/code.png",
-        QUALSU: "/logo/full-logo.png",
-        QUALSU_MINI: "/logo/text-logo.svg",
+        QUALSU: "/logo.png",
+        QUALSU_ICON: "/icon.png",
         QUAL_ID: "/logo/qual-id-logo.svg",
         NOTTER: "/logo/notter.png",
         INSDL: "/logo/insdl.png",
+        INAPI: "/logo/inapi.png",
         SHRTL: "/logo/shrtl.svg",
         TODO: "/logo/todo.png",
         UNISON: "/logo/unison.png",

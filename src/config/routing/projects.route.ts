@@ -6,35 +6,44 @@ export const projects = {
     MAIN: [
         {
             title: "Notter",
-            description: "Планируйте и разрабатывайте с командой в удобной для вас атмосфере",
+            description: "Приложение для заметок и командной работы с текстом",
             image: images.PREVIEW.NOTTER,
             link: links.NOTTER,
             logo: images.LOGO.NOTTER
         },
         {
-            title: "InSDL",
-            description: "Создавайте игры на sdl3 при помощи простой и удобной оболочки",
-            image: images.PREVIEW.INSDL,
-            link: links.INSDL,
-            logo: images.LOGO.INSDL
-        },
-        {
             title: "Shrtl://",
-            description: "Быстро сокращайте ссылки и делитесь файлами без лишнего шума",
+            description: "Сократитель ссылок и быстрый шейринг файлов",
             image: images.PREVIEW.SHRTL,
             link: links.SHRTL,
             logo: images.LOGO.SHRTL
         },
         {
             title: "Qual Cloud",
-            description: "Форк KenyCloud для работы с файлами проектов Qualsu в одном месте",
+            description: "Файловое хранилище, форк KenyCloud",
             image: images.PREVIEW.QUALCLOUD,
             link: links.QUALCLOUD,
             logo: images.LOGO.QUALCLOUD
+        }
+    ],
+    TOOLS: [
+        {
+            title: "InSDL",
+            description: "C++ Фреймворк для SDL3",
+            image: images.PREVIEW.INSDL,
+            link: links.INSDL,
+            logo: images.LOGO.INSDL
+        },
+        {
+            title: "InAPI",
+            description: "С++ библиотека для HTTP приложений с FastAPI-подобным синтаксисом",
+            image: images.PREVIEW.INAPI,
+            link: links.INAPI,
+            logo: images.LOGO.INAPI
         },
         {
             title: "Omi",
-            description: "Интерпретируемый язык программирования на Python",
+            description: "Интерпретируемый язык программирования",
             image: images.PREVIEW.OMI,
             link: links.OMI,
             logo: images.LOGO.OMI
@@ -43,14 +52,14 @@ export const projects = {
     DEVELOP: [
         {
             title: "Notter ToDo",
-            description: "Превращайте хаос в четкие шаги. Работайте так, как вам удобно",
+            description: "Приложение для списков дел и командной организации",
             image: images.PREVIEW.TODO,
             link: pages.ROOT,
             logo: images.LOGO.TODO
         },
         {
             title: "Voicy",
-            description: "Слушайте любимую музыку без ограничений в любое время",
+            description: "Клиент для Spotify",
             image: images.PREVIEW.UNISON,
             link: pages.ROOT,
             logo: images.LOGO.UNISON
@@ -59,21 +68,21 @@ export const projects = {
     ARCHIVE: [
         {
             title: "KenyCloud",
-            description: "open source файловое хранилище",
+            description: "Файловое хранилище",
             image: images.PREVIEW.KENYCLOUD,
             link: links.KENYCLOUD,
             logo: images.LOGO.KENYCLOUD
         },
         {
             title: "Notter Code",
-            description: "браузерный редактор кода",
+            description: "Браузерный редактор кода",
             image: images.PREVIEW.CODE,
             link: links.CODE_NOTTER,
             logo: images.LOGO.CODE
         },
         {
             title: "Voicy",
-            description: "discord радио-бот",
+            description: "Discord радио-бот",
             image: images.PREVIEW.VOICY,
             link: links.VOICY_DISCORD,
             logo: images.LOGO.VOICY,
