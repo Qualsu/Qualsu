@@ -10,7 +10,7 @@ export default function Navbar() {
             <nav className="fixed top-0 left-0 right-0 z-50 px-4 pt-3 sm:px-6 md:px-8 lg:px-10">
                 <div className="surface-panel mx-auto flex max-w-[1400px] items-center justify-between rounded-2xl px-4 py-3 sm:px-5 sm:py-4">
                     <a href={pages.HOME}>
-                        <img src={images.LOGO.QUALSU_ICON} alt="Qualsu logo" className="h-8 opacity-95 transition-opacity duration-200 hover:opacity-100" />
+                        <img src={images.LOGO.QUALSU_TEXT} alt="Qualsu logo" className="h-8 opacity-95 transition-opacity duration-200 hover:opacity-100" />
                     </a>
 
                     <button

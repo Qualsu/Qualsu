@@ -21,6 +21,7 @@ export const images = {
         CODE: "/logo/code.png",
         QUALSU: "/logo.png",
         QUALSU_ICON: "/icon.png",
+        QUALSU_TEXT: "/logo-text.png",
         QUAL_ID: "/logo/qual-id-logo.svg",
         NOTTER: "/logo/notter.png",
         INSDL: "/logo/insdl.png",
