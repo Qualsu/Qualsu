@@ -15,7 +15,8 @@ export const images = {
         QUALCLOUD: "/preview/qualcloud.png",
         CODE: "/preview/code.png",
         VOICY: "/preview/voicy.png",
-        OMI: "/preview/omi.png"
+        OMI: "/preview/omi.png",
+        BGDPS: "/preview/bgdps.png"
     },
     LOGO: {
         CODE: "/logo/code.png",
@@ -32,6 +33,7 @@ export const images = {
         KENYCLOUD: "/logo/kenycloud.png",
         QUALCLOUD: "/logo/qualcloud.png",
         VOICY: "/logo/voicy.png",
-        OMI: "/logo/omi.png"
+        OMI: "/logo/omi.png",
+        BGDPS: "/logo/bgdps.png"
     }
 }

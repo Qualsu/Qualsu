@@ -87,6 +87,13 @@ export const projects = {
             link: links.VOICY_DISCORD,
             logo: images.LOGO.VOICY,
             freaze: true
+        },
+        {
+            title: "BGDPS GlobalList",
+            description: "Сайт с списками уровней для GDPS",
+            image: images.PREVIEW.BGDPS,
+            link: links.BGDPS,
+            logo: images.LOGO.BGDPS
         }
     ]
 }
