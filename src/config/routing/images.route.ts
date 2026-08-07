@@ -13,6 +13,7 @@ export const images = {
         UNISON: "/preview/unison.png",
         KENYCLOUD: "/preview/kenycloud.png",
         QUALCLOUD: "/preview/qualcloud.png",
+        QUALAI: "/preview/qualai.png",
         CODE: "/preview/code.png",
         VOICY: "/preview/voicy.png",
         OMI: "/preview/omi.png",
@@ -32,6 +33,7 @@ export const images = {
         UNISON: "/logo/unison.png",
         KENYCLOUD: "/logo/kenycloud.png",
         QUALCLOUD: "/logo/qualcloud.png",
+        QUALAI: "/logo/qualai.png",
         VOICY: "/logo/voicy.png",
         OMI: "/logo/omi.png",
         BGDPS: "/logo/bgdps.png"

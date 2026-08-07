@@ -8,4 +8,6 @@ export type ProjectCardProps = {
     logoClass?: string;
     develop?: boolean;
     freaze?: boolean;
+    buttonDisabled?: boolean;
+    buttonText?: string;
 };

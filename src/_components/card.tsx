@@ -1,6 +1,6 @@
 import type { ProjectCardProps } from "../config/types/components.types";
 
-export function ProjectCard({ title, description, image, link, logo, titleClass, logoClass = "w-16 sm:w-18", freaze = false }: ProjectCardProps) {
+export function ProjectCard({ title, description, image, link, logo, titleClass, logoClass = "w-16 sm:w-18", freaze = false, buttonDisabled = false, buttonText = "Перейти" }: ProjectCardProps) {
     return (
         <div className="group surface-panel relative flex min-h-72 flex-col justify-between overflow-hidden rounded-[1.5rem] transition-all duration-300 hover:-translate-y-1.5 hover:border-white/20 hover:shadow-[0_24px_70px_rgba(0,0,0,0.35)] sm:min-h-80">
             <div
@@ -20,11 +20,17 @@ export function ProjectCard({ title, description, image, link, logo, titleClass,
                 </div>
 
                 <div className="mt-auto pt-3 sm:pt-4">
-                    <a href={link}>
-                        <button className="primary-button w-full border-white/15 bg-white/[0.04] px-4 py-2.5 text-base sm:text-lg">
-                            Перейти
+                    {buttonDisabled ? (
+                        <button disabled className="primary-button w-full border-white/15 bg-white/[0.04] px-4 py-2.5 text-base sm:text-lg opacity-50 cursor-not-allowed">
+                            {buttonText}
                         </button>
-                    </a>
+                    ) : (
+                        <a href={link}>
+                            <button className="primary-button w-full border-white/15 bg-white/[0.04] px-4 py-2.5 text-base sm:text-lg">
+                                {buttonText}
+                            </button>
+                        </a>
+                    )}
                 </div>
             </div>
         </div>

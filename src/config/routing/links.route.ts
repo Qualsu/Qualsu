@@ -14,5 +14,6 @@ export const links = {
     VOICY_DISCORD: "https://discord.com/invite/4ed6dbJZvZ",
     OMI: "https://omilang.fun",
     QUALCLOUD: "https://cloud.qual.su",
+    QUALAI: "https://ai.qual.su",
     BGDPS: "https://github.com/BetterGDPS/DemonList/"
 }
