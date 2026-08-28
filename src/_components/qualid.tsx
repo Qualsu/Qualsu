@@ -7,7 +7,7 @@ export default function QualID() {
         <main className="section-shell flex min-h-[300px] flex-col justify-between gap-8 sm:min-h-[350px] md:min-h-[400px] md:flex-row">
             <div className="flex h-full flex-1 flex-col items-start justify-between gap-5" id={pages.IDS.QUAL_ID}>
                 <div className="flex flex-col gap-3 sm:gap-4">
-                    <span className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-sm uppercase tracking-[0.2em] text-white/45">Ecosystem</span>
+                    <span className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-sm uppercase tracking-[0.2em] text-white/45 w-34">Ecosystem</span>
                     <img src={images.LOGO.QUAL_ID} alt="Logo" className="w-full max-w-[250px] sm:max-w-[280px] md:max-w-[300px]"/>
                     <h1 className="max-w-xl text-xl leading-snug text-white/90 sm:mt-2 sm:text-2xl">Единая система аккаунтов, которую мы используем почти во всех наших проектах</h1>
                     <p className="max-w-xl text-sm text-white/65 sm:text-base">Один вход, единая идентичность и меньше лишней возни между сервисами</p>
