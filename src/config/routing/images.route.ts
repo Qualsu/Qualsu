@@ -17,7 +17,9 @@ export const images = {
         CODE: "/preview/code.png",
         VOICY: "/preview/voicy.png",
         OMI: "/preview/omi.png",
-        BGDPS: "/preview/bgdps.png"
+        BGDPS: "/preview/bgdps.png",
+        MEDIA: "/preview/media.png",
+        ABAUT: "/preview/abaut.png"
     },
     LOGO: {
         CODE: "/logo/code.png",
@@ -36,6 +38,8 @@ export const images = {
         QUALAI: "/logo/qualai.png",
         VOICY: "/logo/voicy.png",
         OMI: "/logo/omi.png",
-        BGDPS: "/logo/bgdps.png"
+        BGDPS: "/logo/bgdps.png",
+        MEDIA: "/logo/media.png",
+        ABAUT: "/logo/abaut.png"
     }
 }

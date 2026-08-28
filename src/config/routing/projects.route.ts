@@ -12,6 +12,13 @@ export const projects = {
             logo: images.LOGO.NOTTER
         },
         {
+            title: "Notter ToDo",
+            description: "Приложение для списков дел и командной организации",
+            image: images.PREVIEW.TODO,
+            link: links.TODO_NOTTER,
+            logo: images.LOGO.TODO
+        },
+        {
             title: "Shrtl://",
             description: "Сократитель ссылок и быстрый шейринг файлов",
             image: images.PREVIEW.SHRTL,
@@ -58,19 +65,19 @@ export const projects = {
     ],
     DEVELOP: [
         {
-            title: "Notter ToDo",
-            description: "Приложение для списков дел и командной организации",
-            image: images.PREVIEW.TODO,
+            title: "Notter Media",
+            description: "Лента публичных заметок Notter",
+            image: images.PREVIEW.MEDIA,
             link: pages.ROOT,
-            logo: images.LOGO.TODO
+            logo: images.LOGO.MEDIA
         },
         {
-            title: "Voicy",
-            description: "Клиент для Spotify",
-            image: images.PREVIEW.UNISON,
+            title: "Abaut",
+            description: "link-in-bio сервис",
+            image: images.PREVIEW.ABAUT,
             link: pages.ROOT,
-            logo: images.LOGO.UNISON
-        },
+            logo: images.LOGO.ABAUT
+        }
     ],
     ARCHIVE: [
         {
@@ -93,7 +100,6 @@ export const projects = {
             image: images.PREVIEW.VOICY,
             link: links.VOICY_DISCORD,
             logo: images.LOGO.VOICY,
-            freaze: true
         },
         {
             title: "BGDPS GlobalList",
@@ -101,6 +107,15 @@ export const projects = {
             image: images.PREVIEW.BGDPS,
             link: links.BGDPS,
             logo: images.LOGO.BGDPS
+        }
+    ],
+    ARCHIVE_IDEAS: [
+        {
+            title: "Voicy (Unison)",
+            description: "Клиент для Spotify",
+            image: images.PREVIEW.UNISON,
+            link: pages.ROOT,
+            logo: images.LOGO.UNISON,
         }
     ]
 }

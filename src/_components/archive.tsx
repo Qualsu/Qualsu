@@ -11,11 +11,23 @@ export default function Archive() {
                 <h2 className="section-copy">То, что не дожило до наших дней, и это скорее хорошо</h2>
             </div>
 
-            <div className="w-full lg:w-2/3">
-                <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
-                    {projects.ARCHIVE.map((project) => (
-                        <ProjectCard key={project.title} {...project} />
-                    ))}
+            <div className="flex w-full flex-col gap-8 lg:w-2/3">
+                <div className="flex flex-col gap-4">
+                    <h2 className="text-xl font-semibold tracking-tight text-white/75 sm:text-2xl">Архив проектов</h2>
+                    <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
+                        {projects.ARCHIVE.map((project) => (
+                            <ProjectCard key={project.title} {...project} />
+                        ))}
+                    </div>
+                </div>
+
+                <div className="flex flex-col gap-4">
+                    <h2 className="text-xl font-semibold tracking-tight text-white/75 sm:text-2xl">Архив идей</h2>
+                    <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
+                        {projects.ARCHIVE_IDEAS.map((project) => (
+                            <ProjectCard key={project.title} {...project} />
+                        ))}
+                    </div>
                 </div>
             </div>
         </main>
