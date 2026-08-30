@@ -5,6 +5,7 @@ import Heading from './_components/heading'
 import Navbar from './_components/navbar'
 import Project from './_components/project'
 import QualID from './_components/qualid'
+import Status from './_components/status'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Project/>
       <Develop/>
       <Archive/>
+      <Status/>
       <Footer/>
     </div>
   )
