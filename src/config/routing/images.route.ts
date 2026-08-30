@@ -22,6 +22,7 @@ export const images = {
         ABAUT: "/preview/abaut.png"
     },
     LOGO: {
+        STATUS: "/logo/status.svg",
         CODE: "/logo/code.png",
         QUALSU: "/logo.png",
         QUALSU_ICON: "/icon.png",
