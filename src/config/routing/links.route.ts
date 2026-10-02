@@ -1,8 +1,8 @@
 export const links = {
-    QUALSU: "https://qual.su",
-    FEEDBACK: "https://feedback.qual.su",
-    QUAL_ID: "https://id.qual.su",
-    STATUS: "https://status.qual.su",
+    QUALSU: "https://qualsu.ru",
+    FEEDBACK: "https://feedback.qualsu.ru",
+    QUAL_ID: "https://id.qualsu.ru",
+    STATUS: "https://status.qualsu.ru",
     NOTTER: "https://notter.su",
     TODO_NOTTER: "https://todo.notter.su",
     INSDL: "https://github.com/qualsu/insdl",
@@ -14,7 +14,7 @@ export const links = {
     CODE_NOTTER: "https://code.notter.su",
     VOICY_DISCORD: "https://discord.com/invite/4ed6dbJZvZ",
     OMI: "https://omilang.fun",
-    QUALCLOUD: "https://cloud.qual.su",
-    QUALAI: "https://ai.qual.su",
+    QUALCLOUD: "https://cloud.qualsu.ru",
+    QUALAI: "https://ai.qualsu.ru",
     BGDPS: "https://github.com/BetterGDPS/DemonList/"
 }

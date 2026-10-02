@@ -23,7 +23,7 @@ export default function Status() {
             />
             <p className="max-w-2xl text-sm leading-relaxed text-white/70 sm:text-base">
               Недоступен сервис? Проверь актуальное состояние всех серверов на{" "}
-              <span className="font-semibold text-white">status.qual.su</span>
+              <span className="font-semibold text-white">status.qualsu.ru</span>
             </p>
           </div>
         </div>

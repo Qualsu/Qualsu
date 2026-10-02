@@ -1,14 +1,19 @@
 import { useState } from 'react';
+import Banner from './banner';
 import { pages } from '../config/routing/pages.rourte';
 import { images } from '../config/routing/images.route';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [isBannerVisible, setIsBannerVisible] = useState(true);
 
     return (
         <>
-            <nav className="fixed top-0 left-0 right-0 z-50 px-4 pt-3 sm:px-6 md:px-8 lg:px-10">
-                <div className="surface-panel mx-auto flex max-w-[1400px] items-center justify-between rounded-2xl px-4 py-3 sm:px-5 sm:py-4">
+            <header className="fixed top-0 left-0 right-0 z-50">
+                {isBannerVisible && <Banner onClose={() => setIsBannerVisible(false)} />}
+
+                <nav className="relative px-4 pt-3 sm:px-6 md:px-8 lg:px-10">
+                    <div className="surface-panel mx-auto flex max-w-[1400px] items-center justify-between rounded-2xl px-4 py-3 sm:px-5 sm:py-4">
                     <a href={pages.HOME}>
                         <img src={images.LOGO.QUALSU_TEXT} alt="Qualsu logo" className="h-8 opacity-95 transition-opacity duration-200 hover:opacity-100" />
                     </a>
@@ -71,8 +76,9 @@ export default function Navbar() {
                     </div>
                 </div>
             </nav>
+        </header>
 
-            <div className="h-20 md:h-24"></div>
+        <div className={isBannerVisible ? "h-28 sm:h-32 md:h-36 transition-all duration-200" : "h-20 md:h-24 transition-all duration-200"}></div>
 
             {isOpen && (
                 <div 

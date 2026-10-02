@@ -2,7 +2,7 @@
 
 # Qualsu
 
-[qual.su](https://qual.su)
+[qualsu.ru](https://qualsu.ru)
 
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat-square&logo=vite&logoColor=FFD400)
 ![React](https://img.shields.io/badge/React-19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
