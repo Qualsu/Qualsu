@@ -16,5 +16,6 @@ export const links = {
     OMI: "https://omilang.fun",
     QUALCLOUD: "https://cloud.qualsu.ru",
     QUALAI: "https://ai.qualsu.ru",
+    QAI: "https://qai.qualsu.ru",
     BGDPS: "https://github.com/BetterGDPS/DemonList/"
 }

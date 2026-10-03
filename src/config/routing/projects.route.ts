@@ -33,11 +33,11 @@ export const projects = {
             logo: images.LOGO.QUALCLOUD
         },
         {
-            title: "Qual AI",
+            title: "Q.AI",
             description: "Чат-бот с собственными ИИ-моделями",
-            image: images.PREVIEW.QUALAI,
-            link: links.QUALAI,
-            logo: images.LOGO.QUALAI
+            image: images.PREVIEW.QAI,
+            link: links.QAI,
+            logo: images.LOGO.QAI
         }
     ],
     TOOLS: [
