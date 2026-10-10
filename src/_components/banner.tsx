@@ -1,6 +1,10 @@
 import { links } from '../config/routing/links.route';
 
-export default function Banner() {
+interface BannerProps {
+  onClose?: () => void;
+}
+
+export default function Banner({ onClose }: BannerProps) {
   return (
     <aside
       role="alert"
@@ -23,6 +27,29 @@ export default function Banner() {
             </a>
           </p>
         </div>
+
+        {onClose && (
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Закрыть уведомление"
+            className="rounded-lg p-1 text-amber-200/80 hover:text-white hover:bg-white/10 transition-colors"
+          >
+            <svg
+              className="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        )}
       </div>
     </aside>
   );
